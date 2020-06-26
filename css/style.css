@@ -15,7 +15,10 @@ p{
     font-weight: 400;
     color: #606060;
 }
-.extra-div h2{
+i{
+    color: #2fccd0;
+}
+.extra-div h2, .servicediv h2{
     font-size: 0.9rem;
     margin:20px 0 15px 0;
     font-weight: bold;
@@ -110,4 +113,28 @@ background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 0%);
 .extra-div:hover{
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
     transform:translateY(-20px);
+}
+.serviceoffer{
+    background: #f7f7f9;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+.heading{
+    margin-bottom: 50px;
+}
+.heading h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.names h1{
+    color: #2e2e2e;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.serviceicons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
